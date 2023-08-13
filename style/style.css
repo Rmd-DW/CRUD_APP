@@ -1,0 +1,139 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #080800;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #080800;
+    width: 100%;
+    padding: 5px;
+}
+
+.logo {
+    margin: 3px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+/* header */
+header {
+    width: 100%;
+}
+
+header div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 61px;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 50vw;
+}
+
+/* Footer */
+footer {
+    margin: 5px;
+    padding: 5px;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor .div-formulario form input {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* ESTILOS LISTADO */
+.div-listado {
+    margin: 10px;
+    background-color: #ffffe4;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.div-listado h2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 36px;
+    color: black;
+}
+
+.contenedor .div-listado .div-empleados {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    font-size: 18px;
+    color: black;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    background-color: #FFCC00;
+    color: #080800;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #080800;
+    color: white;
+}
+
+.btn-editar {
+    background-color: green;
+    color: white;
+}
+
+.btn-eliminar {
+    background-color: red;
+    color: white;
+}
