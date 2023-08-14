@@ -94,7 +94,7 @@ section {
     font-size: 18px;
 }
 
-/* ESTILOS LISTADO */
+/* Listado */
 .div-listado {
     margin: 10px;
     background-color: #ffffe4;
@@ -152,7 +152,7 @@ hr {
     font-weight: bold;
 }
 
-
+/* Tablet */
 
 @media only screen and (max-width: 768px) {
     nav img {
@@ -207,7 +207,7 @@ hr {
 }
 
 
-
+/* Mobile*/
 
 @media only screen and (max-width: 380px) {
 

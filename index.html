@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <title>CRUD LOCAL JS</title>
+    <title>CRUD</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, description=Aplicación CRUD en JavaScript">
     <link rel="stylesheet" href="./style/style.css">
     <meta property="og:title" content="APLICACIÓN CRUD">
     <meta property="og:description" content="Una aplicación CRUD para gestionar empleados">
-  
+
 </head>
+
 <body>
-    
-    <header role="banner">
+
+    <header>
         <nav>
-            <img src="./assets/iconos/academicons_ideas-repec.png" class="logo" width="80px" alt="Logo de la aplicación">
+            <img src="./assets/iconos/academicons_ideas-repec.png" class="logo" width="80px"
+                alt="Logo de la aplicación">
         </nav>
         <div class="div-titulo">
             <h1>APLICACIÓN CRUD</h1>
         </div>
     </header>
-    
-    <main role="main">
+
+    <main>
         <section class="contenedor">
             <div class="div-formulario">
                 <h2>Agregar Empleados</h2>
@@ -29,14 +32,13 @@
                 <form action="#" id="formulario">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" placeholder="Ingresa un nombre">
-                    
+
                     <label for="puesto">Puesto:</label>
                     <input type="text" id="puesto" placeholder="Ingresa el puesto">
-                    
+
                     <button class="btn" type="submit" id="btnAgregar">Agregar</button>
                 </form>
             </div>
-
             <section class="div-listado">
                 <h2>Listado de Empleados</h2>
                 <div class="div-empleados">
@@ -50,4 +52,5 @@
         <script src="./js/app_crud.js"></script>
     </footer>
 </body>
+
 </html>
