@@ -6,7 +6,7 @@
 ## Proyecto de Aplicación CRUD 👨‍💻
 
 Este proyecto consiste en desarrollar una aplicación que implementa las operaciones fundamentales de un sistema CRUD: Crear, Leer, Actualizar y Eliminar. 
-La aplicación esta diseñará como una Single Page Application (SPA), brindando una experiencia fluida y eficiente a los usuarios.
+La aplicación se diseñará como una Single Page Application (SPA), brindando una experiencia fluida y eficiente a los usuarios.
 
 ## Objetivo 🎯
 
